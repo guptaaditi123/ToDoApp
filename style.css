@@ -1,0 +1,68 @@
+body {
+  font-family: cursive;
+  background: linear-gradient(to right, red, blue);
+}
+
+#todo h1{
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+#todo {
+  background-color:white;
+  padding-left: 20px;
+  margin-left: 500px;
+  margin-right: 500px;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  margin-top: 150px;
+  border-radius: 3px;
+  font-size: medium;
+  border:5px solid black;
+}
+#todo div { /* Styling for added To-Do items */
+  background-color: lightgray; /* Background color */
+  padding: 15px; /* Increase padding for bigger size */
+  margin-top: 10px; /* Space between added elements */
+  font-size: 18px; /* Increase text size */
+  width: 300px; /* Make it take full width */
+  border-radius: 5px; /* Add rounded corners */
+  display: flex;          /* Aligns text and button in one row */
+  justify-content: space-between; /* Puts space between text & button */
+  align-items: center; 
+  
+}
+input {
+  font-size: 15px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  text-align: left;
+  border:2px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+button {
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-left: 15px;
+  padding-left:10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+button.new
+{
+  font-size: medium;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-left: 180px;
+  
+}
+
+button:hover {
+  background-color: burlywood;
+}
+.new:hover
+{
+  background-color: blanchedalmond;
+}
